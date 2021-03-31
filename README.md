@@ -21,5 +21,5 @@
 
 - We can check the precipitation of each month by using these two queries: 
 
-results = session.query(Measurement.date, Measurement.prcp).filter(Measurement.date == 6).all()
-results = session.query(Measurement.date, Measurement.prcp).filter(Measurement.date == 12).all()
+-- results = session.query(Measurement.date, Measurement.prcp).filter(Measurement.date == 6).all()
+-- results = session.query(Measurement.date, Measurement.prcp).filter(Measurement.date == 12).all()
